@@ -18,7 +18,7 @@
   </p>
   <p> <a class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Search!</a> </p>
   <div>
-    <b>Entered:</b> {{tagManager.searchString}}
+    <b>Entered:</b> {{tagManager.searchString | uppercase}}
   </div>
   <div>
     <b>Parsed:</b> 
