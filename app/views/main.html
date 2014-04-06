@@ -7,19 +7,29 @@
   <h3 class="text-muted">IncubioApp</h3>
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron" ng-controller="TagManagerController as tagManager">
   <h1>Please, type below the business idea to be tested</h1>
   <p class="lead">
     <br>
     It will be parsed into search criteria
   </p>
   <p>
-  <input type="string" ng-model="business_idea" required size=50>
+    <input type="string" ng-model="tagManager.searchString" required size=50>
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Search!</a></p>
-    <div>
-    <b>Parsed:</b> {{business_idea.split(' ')}}
+  <p> <a class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Search!</a> </p>
+  <div>
+    <b>Entered:</b> {{tagManager.searchString}}
   </div>
+  <div>
+    <b>Parsed:</b> 
+    <select>
+      <option ng-repeat="c in tagManager.getTagsFromSearchString()">{{c}}</option>
+    </select>
+  </div>
+  <div>
+    <b>Found:</b> {{tagManager.MatchingTags}}
+  </div>
+
 </div>
 
 <div class="row marketing">
