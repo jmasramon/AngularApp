@@ -1,0 +1,595 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"view.encoding()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_agrupacion_poblacion.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/amfphp/services/SesionEngine.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/gestor/factura2.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/src/cat/documenta/engines/proyecto/AdministradorRecurso.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/amfphp/services/classes/dbclasses/DocuCommon.inc.php",
+		"/Users/jmasramon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/amfphp/services/AdministradorIdiomas.php",
+		"/Users/jmasramon/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuCommon.inc.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuConversion.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuProcess.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/documenta",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/sites-available/default",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/ui/gestor/idiomas/GestorIdiomas.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/engines/idioma/AdministradorIdiomas.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/manager/idioma/IdiomaManager.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/Documenta.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/engines/proyecto/AdministradorEventos.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src/cat/documenta/engines/configuracion/Configurador.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/cat/documenta/manager/midiaReproductoresNuevo/GesorCargaRecursos.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/bin-debug/assets/docs_cristina/errorGuardarSecuencia05Febr2010.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/src/cat/documenta/engines/proyecto/AdministradorEditorSecuencia.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/src/ca/newcommerce/youtube/iterators/FeedLinkIterator.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/mydocumenta/sites/all/modules/views/modules/taxonomy/views_handler_relationship_node_term_data.inc",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/js/tinymce/plugins/jbimages/ci/application/errors/error_db.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/core/amf/util/PageAbleResult.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.improvisa.cat/pub/es/improvisa/traduccio/formulari/util/events/ListNodeEvent.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/cris/lafh_EN.flv",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/login.js",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/src/cat/documenta/engines/proyecto/AdministradorEditorCarpeta.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/src/cat/documenta/engines/proyecto/AdministradorEditor.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/gestor/utils/EmailAddressValidator.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/editAgrDatos.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/bin-release/assets/libreria/dataLib/scroll_rojo.fla",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/cat/documenta/engines/proyecto/AdministradorSecuencia.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/mydocumenta/sites/default/filesBK/languages/es_nXigAdZlpP8_YeEWOF8fPmm1IKiESkAk5kYl3Kmx_Mw.js",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/org/alivepdf/images/gif/errors/FileTypeError.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/google91d5519b21e6af91.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/utils/standalone/getUserEdu.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/iipp/getRegistro.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/mydocumenta/scripts/generate-d6-content.sh",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/utils/getAgrupacionId.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/gestor/utils/xls/Classes/PHPExcel/Calculation/TextData.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_resp2_email.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_area_creation_default.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_resp2_tel.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/factura.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/assets/general/fondoAlerta.fla",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/fitxersCanviatsADev3.tar",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/taller",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/amfphp/services/tests/test_session.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/cat/documenta/engines/proyecto/AdministradorInvitaciones.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/AdministradorCuadricula.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.improvisa.cat/pub/scripts/admin_destacades.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/cat/documenta/manager/dragAndDrop/DragAndDropManager.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/cris/art_documenta.flv",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/iipp/a.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/cat/documenta/manager/idioma/IdiomaManager.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/documentacion_flex/cat/documenta/manager/idioma/IdiomaManager.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/cat/documenta/manager/idioma/IdiomaManager.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.improvisa.cat/pub/com/roger/idiomas.etc.sql",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_idioma_id.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/test/robert/imagenes_data.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/improvisa",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.improvisa.cat/pub/com/gskinner/motion/GTween.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/Flex_Project/src/cat/documenta/Documenta.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/cat/documenta/engines/proyecto/AdministradorEventos.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/documentacion_flex/cat/documenta/engines/proyecto/AdministradorEventos.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/cat/documenta/engines/proyecto/AdministradorEventos.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/documentacion_flex/cat/documenta/engines/proyecto/AdministradorEditor.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/SesionEngine.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/iipp/utils/setSession.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/share.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/documenta.mxml",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/Flex_Project/src/cat/documenta/manager/idioma/IdiomaManager.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/Flex_Project/src/cat/documenta/engines/idioma/AdministradorIdiomas.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/index.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/flex/browser4.1/src/cat/documenta/Documenta.as",
+		"/Volumes/toMac/index.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/mydocumenta/modules/book/book.css",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/uploadFile.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuUploadedFile.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuTask.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuVideoManipulationTask.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuDatabase.inc.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuVideoConvertTask.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuAgrupacion.inc.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuGrupo_de_trabajo.inc.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuImage_conversion_task.inc.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.improvisa.cat/pub/com/roger/model/DummyObject.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.conversio.documenta.cat/amfphp/services/classes/DocuUpload.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/scripts/conversionDaemonCleanup.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/scripts/execCleanup.php",
+		"/Users/jmasramon/tmp/DNS Spoofing.xml",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/documentacion/upload server setup.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/es/improvisa/datos/UploadArchivos.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/es/improvisa/utils/UploadPostHelper.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/mydocumenta/sites/default/files/videos_how_to/uploading_files.mp4",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/documentacion/upload server setup.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/amfphp/services/uploadFile.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/log/Upload.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/uploads.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/uploads.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/mydocumenta/modules/user/user-picture.tpl.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/gestor/utils/xls/Tests/Excel2003XMLReader.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/errors.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/init.d/conversionDaemonPostProcFinished.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/init.d/conversionDaemonCleanup.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/conversio.sublime-project",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/iipp/contrato.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/scripts/list_carp_ok.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/crossdomain.xml",
+		"/Users/jmasramon/Develop/mydocumenta/Instalacio SSO per ecolint.txt",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/mydocumenta/sites/all/themes/kanji/js/player.js",
+		"/Users/jmasramon/tmp/testingCFstreamingDistribution.html",
+		"/Users/jmasramon/tmp/testingCFstreamingDistributionSubdir.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuAudioConversion.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuAudioConvertTask.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuAudioManipulationTask.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuConversion.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/Flex_Project/bin-debug/assets/editorSecuencia/playStop.fla",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/amfphp/core/shared/adapters/pgsqlAdapter.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/documentacion_flex/package-list.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/es/improvisa/lilia/sonidos/PlayList.as",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/documentacion_flex/comp/cuadricula/videoPlayerPreviewer.html",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/pi.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/scripts/list_carp_up.php",
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/mydocumenta/sites/all/modules/views/css/views-list-rtl.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.as",
+			"*.as,/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src",
+			"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new,*.as",
+			"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new",
+			"*.as ,*.mxml,/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new",
+			"*.as ,*.mxml",
+			"*.as ",
+			"*.as; *.mxml",
+			"*.as *.mxml",
+			"*.as",
+			"*.*",
+			"*.as",
+			"*.php",
+			"",
+			"*.rb",
+			"",
+			"*.rb",
+			"",
+			"/Users/jmasramon/Develop/mydocumenta/devops/chef/chef-repo",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"8",
+			"leerdatosRecuro",
+			"_responderleerdatosRecuro",
+			"cloudInit",
+			"cargaConfiguradorLista",
+			"Configurador.COMPLETE",
+			"onConfigLoaded\n",
+			"onConfigLoaded",
+			"COMPLETE",
+			"SesionEngine.configura",
+			"preIni",
+			"init",
+			"init2",
+			"iniDocumenta",
+			"SesionEngine",
+			"editMode",
+			"edit_mode",
+			"plugin_logo",
+			"onResultgetDiccionario",
+			"IdiomaEvent.IDIOMA_CARGADO",
+			"getDiccionario",
+			"onListadoIdiomasCargados",
+			"IdiomaEvent.LISTADO_IDIOMAS_CARGADOS",
+			"onResultgetListadoIdiomas",
+			"_responderGetListadoIdiomas",
+			"AdministradorIdiomas.getIdiomasActivos",
+			"iniGetDiccionario",
+			"getIdiomaById",
+			"idiomaActual",
+			"initGetDiccionario",
+			"idiomaActual",
+			"runBackground",
+			"administrador",
+			"DocuDatabase.inc.php",
+			"ffmpeg",
+			"storeFile",
+			"move_uploaded_file",
+			"move",
+			"conv_clean",
+			"convClean",
+			"authorName",
+			"pid",
+			"player.js",
+			"data",
+			"conversion_data",
+			"destinationDirectoryName",
+			"sourceFile",
+			"destinationDirectoryName",
+			"setDestinationFile",
+			": Operation not permitted",
+			"<br/>",
+			"comprobar",
+			"COMPROVA",
+			"log",
+			"fopen",
+			"this->debugLog(100);",
+			"CrearGruposTrabajo",
+			"PHP",
+			"this",
+			"buscarGruposTrabajo",
+			"debugLog(100);",
+			"debugLog",
+			"#debugLog",
+			"'\\#debugLog'",
+			"\\#debugLog ",
+			"#debugLog ",
+			"return [0-9][0-9][0-9];",
+			"log",
+			"----------------",
+			"return 111",
+			"get_proyectos_publicos_con_agrupacion_y_area_de_conocimiento()",
+			"selection",
+			" mydocumenta",
+			"+",
+			"saml20",
+			"admin",
+			"password",
+			"virtual",
+			"($_SERVER['HTTP_USER_AGENT']=='dev3')",
+			"HTTP_USER_AGENT",
+			"ktonycia_docume",
+			"add.php",
+			"alex",
+			"www.documenta.cat.new",
+			"documenta.cat.new",
+			"#	",
+			"trigger",
+			"[ERROR in query",
+			"trigger",
+			"drop table .*",
+			"tipo_datos",
+			"drop table .*",
+			"drop table",
+			"sublime",
+			"drop table",
+			"paypal",
+			"ecolint_teachers",
+			"celda_pantilla",
+			"agrupacion_has_agrupacions",
+			"INSERT INTO `agrupacion_has_agrupacions`",
+			"INSERT INTO",
+			"alex",
+			"54.229.207.63",
+			"IN	A",
+			"54.229.207.63",
+			"IN	A",
+			"www",
+			"improvisa",
+			"instalacionespedagogicas.net",
+			"mydocumenta.com",
+			"alex",
+			"upload1",
+			"54.246.189.92",
+			"alex",
+			"improvisa",
+			"alex",
+			"index.php",
+			"pear",
+			"IT.php",
+			"alex",
+			"axel",
+			"_test",
+			"#",
+			"php.ini",
+			"sites-available/default",
+			"default",
+			"alex",
+			"002-conversio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\n",
+			"$this->debugLog(100);",
+			"this->debugLog(100);",
+			"debugLog",
+			"debugLog(100);",
+			" ",
+			"",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"docucommon",
+				"www/www.documenta.cat.new/amfphp/services/classes/dbclasses/DocuCommon.inc.php"
+			],
+			[
+				"leerdatorecur",
+				"flex/3.0/src/cat/documenta/engines/proyecto/AdministradorRecurso.as"
+			],
+			[
+				"factura2",
+				"www/www.instalacionespedagogicas.net/gestor/factura2.php"
+			],
+			[
+				"administradoridiom",
+				"www/www.documenta.cat.new/amfphp/services/AdministradorIdiomas.php"
+			],
+			[
+				"idiomamanager",
+				"flex/3.0/Flex_Project/src/cat/documenta/manager/idioma/IdiomaManager.as"
+			],
+			[
+				"administradoreventos",
+				"flex/3.0/Flex_Project/src/cat/documenta/engines/proyecto/AdministradorEventos.as"
+			],
+			[
+				"sesion",
+				"www/www.documenta.cat.new/amfphp/services/SesionEngine.php"
+			],
+			[
+				"idiomamana",
+				"www/www.documenta.cat.new/Flex_Project/src/cat/documenta/manager/idioma/IdiomaManager.as"
+			],
+			[
+				"docudatab",
+				"www/www.conversio.documenta.cat/amfphp/services/classes/dbclasses/DocuDatabase.inc.php"
+			],
+			[
+				"docutask",
+				"www/www.conversio.documenta.cat/amfphp/services/classes/DocuTask.php"
+			],
+			[
+				"docuvideomanipulationtask",
+				"www/www.conversio.documenta.cat/amfphp/services/classes/DocuVideoManipulationTask.php"
+			],
+			[
+				"docup",
+				"www/www.conversio.documenta.cat/amfphp/services/classes/DocuProcess.php"
+			],
+			[
+				"docuuplofil",
+				"www/www.conversio.documenta.cat/amfphp/services/classes/DocuUploadedFile.php"
+			],
+			[
+				"uplo",
+				"new_file_upload/amfphp/services/uploadFile.php"
+			],
+			[
+				"exec",
+				"new_file_upload/amfphp/services/scripts/execCleanup.php"
+			],
+			[
+				"conversiondaemon",
+				"new_file_upload/amfphp/services/scripts/conversionDaemonCleanup.php"
+			],
+			[
+				"player",
+				"www.instalacionespedagogicas.net/mydocumenta/sites/all/themes/kanji/js/player.js"
+			],
+			[
+				"list_capr",
+				"improvisa/scripts/list_carp_ok.php"
+			],
+			[
+				"list_cap",
+				"improvisa/scripts/list_carp_ok.php"
+			],
+			[
+				"dbacc",
+				"www.instalacionespedagogicas.net/gestor/utils/dbAccess.php"
+			],
+			[
+				"dbacce",
+				"3.0/amfphp/services/classes/dbclasses/DocuArea_de_conocimiento.inc.php"
+			],
+			[
+				"dbtest",
+				"www.instalacionespedagogicas.net/dbtest.php"
+			],
+			[
+				"arrangegru",
+				"www.instalacionespedagogicas.net/admin/utils/standalone/arrangeGrupo.php"
+			],
+			[
+				"arrangepref",
+				"www.instalacionespedagogicas.net/admin/utils/standalone/arrangePreferenciasDeUsuario.php"
+			],
+			[
+				"rolesmysql",
+				"chef/chef-repo/roles/mySqlServer.rb"
+			],
+			[
+				"alias",
+				"Vagrant/precise64/cookbooks/magic_shell/providers/alias.rb"
+			],
+			[
+				"execstart",
+				"amfphp/services/scripts/execStartNext.php"
+			],
+			[
+				"initialize.inc.php",
+				"amfphp/services/initialize.inc.php"
+			],
+			[
+				"uploadfile",
+				"amfphp/services/uploadFile.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

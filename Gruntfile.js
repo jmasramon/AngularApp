@@ -9,6 +9,8 @@
 
 module.exports = function (grunt) {
 
+  // grunt.loadNpmTasks('grunt-protractor-runner');
+  
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
 
@@ -367,12 +369,26 @@ module.exports = function (grunt) {
 
     // Test settings
     karma: {
+      // e2e: {
+      //   configFile: 'karma-e2e.conf.js',
+      //   singleRun: true
+      // },
       unit: {
         configFile: 'karma.conf.js',
         singleRun: true
       }
+    },
+    
+    protractor:{  
+      options:{    
+        keepAlive:true,    
+        configFile:"test/protractor-conf.js"
+      },  
+        run:{}
     }
+
   });
+
 
 
   grunt.registerTask('serve', function (target) {
@@ -400,7 +416,8 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma'
+    'karma',
+    'protractor:run'
   ]);
 
   grunt.registerTask('build', [
