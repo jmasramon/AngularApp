@@ -3,14 +3,75 @@
 	{
 		"selected_items":
 		[
+			[
+				"to",
+				"toBe"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "app/views/main.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/main.js",
+			"settings":
+			{
+				"buffer_size": 195,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/tagmanager.js",
+			"settings":
+			{
+				"buffer_size": 750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/controllers/main.js",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/e2e/mainpage.js",
+			"settings":
+			{
+				"buffer_size": 1808,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/spec/controllers/tagmanager.js",
+			"settings":
+			{
+				"buffer_size": 1492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "karma-e2e.conf.js",
+			"settings":
+			{
+				"buffer_size": 1340,
 				"line_ending": "Unix"
 			}
 		}
@@ -47,6 +108,12 @@
 	},
 	"file_history":
 	[
+		"/Users/jmasramon/Develop/datosfera/package.json",
+		"/Users/jmasramon/Develop/datosfera/test/protractor-conf.js",
+		"/Users/jmasramon/Develop/datosfera/test/e2e/mainpage.js",
+		"/Users/jmasramon/Develop/datosfera/app/scripts/controllers/main.js",
+		"/Users/jmasramon/Develop/datosfera/app/scripts/controllers/tagManager.js",
+		"/Users/jmasramon/Develop/datosfera/app/scripts/controllers/tagmanagercontroller.js",
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/admin/datos_agrupacion_poblacion.php",
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new/amfphp/services/SesionEngine.php",
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.instalacionespedagogicas.net/gestor/factura2.php",
@@ -168,23 +235,18 @@
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuAudioManipulationTask.php",
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/new_file_upload/amfphp/services/classes/DocuConversion.php",
 		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/Flex_Project/bin-debug/assets/editorSecuencia/playStop.fla",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/amfphp/core/shared/adapters/pgsqlAdapter.php",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/documentacion_flex/package-list.html",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/es/improvisa/lilia/sonidos/PlayList.as",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/documentacion_flex/comp/cuadricula/videoPlayerPreviewer.html",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/pi.php",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/improvisa/scripts/list_carp_up.php",
-		"/Users/jmasramon/tmp/repositorisMyDocumenta/www.instalacionespedagogicas.net/mydocumenta/sites/all/modules/views/css/views-list-rtl.css"
+		"/Users/jmasramon/tmp/repositorisMyDocumenta/3.0/amfphp/core/shared/adapters/pgsqlAdapter.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/jmasramon/Develop/datosfera",
 			"*.as",
 			"*.as,/Users/jmasramon/tmp/repositorisMyDocumenta/flex/3.0/Flex_Project/src",
 			"/Users/jmasramon/tmp/repositorisMyDocumenta/www/www.documenta.cat.new,*.as",
@@ -212,6 +274,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"protractor",
+			"loadNpmTasks",
+			"grunt.loadNpmTasks",
+			"karma",
+			"e2e",
+			"phoneList",
+			"query",
+			"TagManagerController",
 			"8",
 			"leerdatosRecuro",
 			"_responderleerdatosRecuro",
@@ -331,15 +401,7 @@
 			"index.php",
 			"pear",
 			"IT.php",
-			"alex",
-			"axel",
-			"_test",
-			"#",
-			"php.ini",
-			"sites-available/default",
-			"default",
-			"alex",
-			"002-conversio"
+			"alex"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -366,34 +428,249 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/views/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								377,
+								377
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9352,
+								9352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5482.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/controllers/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/controllers/tagmanager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "test/spec/controllers/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								498
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test/e2e/mainpage.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								900,
+								900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "test/spec/controllers/tagmanager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "karma-e2e.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -416,11 +693,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.267014134819,
 			1.0
 		],
 		"rows":
@@ -587,7 +871,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 320.0,
+	"side_bar_width": 87.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
