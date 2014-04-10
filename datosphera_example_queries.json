@@ -1,0 +1,223 @@
+// 1) Direct competitors in one country
+
+{
+  "filter": {
+    "nested": {
+      "path": "offices",
+      "query": {
+        "filtered": {
+          "filter": {
+            "term": {
+              "offices.country_code": "USA"
+            }
+          },
+          "query": {
+            "match_all": {}
+          }
+        }
+      }
+    }
+  },
+  "query": {
+    "match": {
+      "tag_list": {
+        "operator": "and",
+        "query": "public-cloud network-monitoring"
+      }
+    }
+  },
+  "sort": [
+    {
+      "funding_rounds.raised_amount": {
+        "mode": "sum",
+        "nested_path": "funding_rounds",
+        "order": "asc"
+      }
+    }
+  ]
+}
+
+
+
+// 2) Get by Company name
+{
+  "query": {
+    "match": {
+      "name": {
+        "query": "Agency Zebra",
+        "type": "phrase"
+      }
+    }
+  }
+}
+
+// 3) Get by URL (homepage url) -- Will also find subdomains (something.facebook.com) and matching urls (facebook.com/something)
+{
+  "query": {
+    "match": {
+      "homepage_url": {
+        "query": "facebook.com",
+        "type": "phrase"
+      }
+    }
+  }
+}
+
+
+// 4) Get 20 companies with an office in the USA
+{
+  "filter": {
+    "nested": {
+      "path": "offices",
+      "query": {
+        "filtered": {
+          "filter": {
+            "term": {
+              "offices.country_code": "USA"
+            }
+          },
+          "query": {
+            "match_all": {}
+          }
+        }
+      }
+    }
+  },
+  "size": 20
+}
+
+// 5) Get all companies by category code (industry)
+{
+  "filter": {
+    "term": {
+      "category_code": "advertising"
+    }
+  }
+}
+
+// 6) Count all companies by category code (industry)
+{
+  "filter": {
+    "term": {
+      "category_code": "advertising"
+    }
+  },
+  "size": 0
+}
+
+
+// 7) Top 10 industries and the count of each one
+{
+  "query": {
+    "match_all": {}
+  },
+  "facets": {
+    "tag": {
+      "terms": {
+        "field": "category_code",
+        "size": 10
+      }
+    }
+  },
+  "size": 0
+}
+
+// 8) Average funding received by one category code (advertising)
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "match_all": {}
+      },
+      "filter": {
+        "term": {
+          "tag_list": "advertising"
+        }
+      }
+    }
+  },
+  "facets": {
+    "stat1": {
+      "statistical": {
+        "field": "funding_rounds.raised_amount"
+      },
+      "nested": "funding_rounds"
+    }
+  },
+  "size": 0
+}
+
+
+// 9) Histogram: companies in the advertising industry / founded year
+{
+  "query": {
+    "match_all": {}
+  },
+  "facets": {
+    "histo1": {
+      "histogram": {
+        "field": "founded_year",
+        "interval": 1
+      },
+      "facet_filter": {
+        "term": {
+          "category_code": "advertising"
+        }
+      }
+    }
+  },
+  "size" : 0
+}
+
+// 10) Histogram: companies in the advertising industry / closing year
+{
+  "query": {
+    "match_all": {}
+  },
+  "facets": {
+    "histo1": {
+      "histogram": {
+        "field": "deadpooled_year",
+        "interval": 1
+      },
+      "facet_filter": {
+        "term": {
+          "category_code": "advertising"
+        }
+      }
+    }
+  },
+  "size" : 0
+}
+
+// 11) Combining both of the above in a single query (improves page performance, usually)
+{
+  "query": {
+    "match_all": {}
+  },
+  "facets": {
+    "deadpooled": {
+      "histogram": {
+        "field": "deadpooled_year",
+        "interval": 1
+      },
+      "facet_filter": {
+        "term": {
+          "category_code": "advertising"
+        }
+      }
+    },
+    "funded": {
+      "histogram": {
+        "field": "founded_year",
+        "interval": 1
+      },
+      "facet_filter": {
+        "term": {
+          "category_code": "advertising"
+        }
+      }
+    }
+  },
+  "size" : 0
+}

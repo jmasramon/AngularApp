@@ -5,7 +5,9 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'countrySelect'
+    // 'Glossary'
   ])
   .config(function ($routeProvider) {
     $routeProvider

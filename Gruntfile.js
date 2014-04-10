@@ -17,6 +17,9 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  // add automatic notifications on warnings or errors
+  grunt.loadNpmTasks('grunt-notify');
+  
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -379,12 +382,12 @@ module.exports = function (grunt) {
       }
     },
     
-    protractor:{  
-      options:{    
-        keepAlive:true,    
-        configFile:"test/protractor-conf.js"
-      },  
-        run:{}
+    protractor:{
+      options:{
+        keepAlive:true,
+        configFile:'test/protractor-conf.js'
+      },
+      run:{}
     }
 
   });

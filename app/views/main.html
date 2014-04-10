@@ -1,52 +1,60 @@
 <div class="header" id="mainPageHeader">
-  <ul class="nav nav-pills pull-right">
+    <ul class="nav nav-pills pull-right">
     <li class="active"><a ng-href="#">Home</a></li>
     <li><a ng-href="#">About</a></li>
     <li><a ng-href="#">Contact</a></li>
   </ul>
   <h3 class="text-muted">IncubioApp</h3>
 </div>
-
-<div class="jumbotron" ng-controller="TagmanagerCtrl as tagManager">
+  <div class="jumbotron" ng-controller="TagmanagerCtrl as tagManager">
   <h1>Please, type below the business idea to be tested</h1>
   <p class="lead">
-    <br>
-    It will be parsed into search criteria
+  <br>
+  It will be parsed into search criteria
   </p>
-  <p>
-    <input type="string" ng-model="tagManager.searchString" required size=50>
-  </p>
-  <p> <a class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Search!</a> </p>
-  <div>
-    <b>Entered:</b> {{tagManager.searchString | uppercase}}
-  </div>
-  <div>
-    <b>Parsed:</b> 
-    <select>
-      <option ng-repeat="c in tagManager.getTagsFromSearchString()">{{c}}</option>
-    </select>
-  </div>
-  <div>
-    <b>Found:</b> <div>{{tagManager.MatchingTags}}</div>
-  </div>
-
+    <!-- <form id="searchCriteriaForm" class="form-horizontal"> -->
+      <p>
+      <input id="searcBox" type="string" ng-model="tagManager.searchString" required size=50>
+      </p>
+      <p>
+      Domain(s): <input id="domainBox" type="string" ng-model="tagManager.domainActivity" required size=39>
+      </p>
+      <p>
+      Country: <country-select data-ng-model="selectedCountry"></country-select>
+      </p>
+      <p> <a class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Search!</a> </p>
+        <div>
+        <b>Entered:</b>  
+          <p>{{tagManager.searchString | uppercase}}</p>
+          <p >{{tagManager.domainActivity | uppercase | splitWords:", "}}</p>
+          <p>{{selectedCountry | uppercase}}</p>
+      </div>
+        <div>
+        <b>Parsed:</b>
+          <select>
+          <option ng-repeat="c in tagManager.getTagsFromSearchString()">{{c}}</option>
+        </select>
+      </div>
+        <div id="foundDiv">
+          <b>Found:</b> {{tagManager.MatchingTags}}
+<!--           <ul>
+            
+          </ul>
+ -->        </div>
+    <!-- </form> -->
 </div>
-
-<div class="row marketing">
+  <div class="row marketing">
   <h4>Powered by</h4>
   <p>
-    ElasticSearch
+  ElasticSearch
   </p>
-
   <h4>Angular</h4>
   <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
+  AngularJS is a toolset for building the framework most suited to your application development.
   </p>
-
   <h4>Karma</h4>
   <p>Spectacular Test Runner for JavaScript.</p>
 </div>
-
-<div class="footer">
+  <div class="footer">
   <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
 </div>

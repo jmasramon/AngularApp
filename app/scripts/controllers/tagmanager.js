@@ -11,7 +11,8 @@ angular.module('angularAppApp')
     this.searchString = '';
     this.SearchTags = [];
     this.MatchingTags = [];
-
+    // this.glossary = require('glossary');
+    
     this.getTagsFromSearchString = function getTagsFromSearchString() {
       this.SearchTags = this.searchString.split(' ');
       return this.SearchTags;
