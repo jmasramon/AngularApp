@@ -1,0 +1,19 @@
+<div class="header" id="mainPageHeader">
+    <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+  </ul>
+  <h3 class="text-muted">IncubioApp</h3>
+</div>
+
+<div id="content">
+	<p>This is the tabularResult view.</p>
+	<div id="resultTable" ng-controller="TabularresultCtrl as tabRes" ng-init="getResults()" >
+		<ul >
+			<li ng-repeat="result in results | limitTo:10">
+				R{{$index}} -- <b>Matching Tags:</b>{{result.tagList}} -- <b>Company:</b>{{result.companyName}}
+			</li>
+		</ul>
+	</div>
+</div>

@@ -15,6 +15,10 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/tabularResult', {
+        templateUrl: 'views/tabularresult.html',
+        controller: 'TabularresultCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

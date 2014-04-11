@@ -6,14 +6,14 @@
   </ul>
   <h3 class="text-muted">IncubioApp</h3>
 </div>
-  <div class="jumbotron" ng-controller="TagmanagerCtrl as tagManager">
+
+<div class="jumbotron" ng-controller="TagmanagerCtrl as tagManager">
   <h1>Please, type below the business idea to be tested</h1>
   <p class="lead">
   <br>
   It will be parsed into search criteria
   </p>
-    <!-- <form id="searchCriteriaForm" class="form-horizontal"> -->
-      <p>
+       <p>
       <input id="searcBox" type="string" ng-model="tagManager.searchString" required size=50>
       </p>
       <p>
@@ -22,7 +22,8 @@
       <p>
       Country: <country-select data-ng-model="selectedCountry"></country-select>
       </p>
-      <p> <a class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Search!</a> </p>
+      <p> <a id="parseButton" class="btn btn-lg btn-success" ng-click="tagManager.getMatchingTags()">Parse!</a> </p>
+      <p> <a  id="searchButton" class="btn btn-lg btn-success" href="#/tabularResult">Search!</a> </p>
         <div>
         <b>Entered:</b>  
           <p>{{tagManager.searchString | uppercase}}</p>
@@ -37,13 +38,9 @@
       </div>
         <div id="foundDiv">
           <b>Found:</b> {{tagManager.MatchingTags}}
-<!--           <ul>
-            
-          </ul>
- -->        </div>
-    <!-- </form> -->
+        </div>
 </div>
-  <div class="row marketing">
+<div class="row marketing">
   <h4>Powered by</h4>
   <p>
   ElasticSearch

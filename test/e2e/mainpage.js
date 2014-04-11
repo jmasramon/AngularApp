@@ -66,7 +66,7 @@ describe('Datosfera App', function() {
     it('should get the 2nd and forth parsed tags from the search box', function() {
       var searchString = element(by.model('tagManager.searchString'));
       var tagList = element.all(by.repeater('c in tagManager.getTagsFromSearchString()'));
-      var searchButton = element(by.className('btn'));
+      var searchButton = element(by.id('parseButton'));
       var matchingTags= element(by.id('foundDiv'))
       
       expect(searchButton.isPresent()).to.eventually.be.true;

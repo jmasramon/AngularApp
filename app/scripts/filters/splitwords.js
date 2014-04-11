@@ -8,7 +8,7 @@ angular.module('angularAppApp')
 			if (input) {
 				splittedArray = input.split(splitChar);
 			}
-			console.log('splitWords filter called with ' + input + ' returning ' + splittedArray);
+			// console.log('splitWords filter called with ' + input + ' returning ' + splittedArray);
 			return splittedArray;
 		};
 	});
